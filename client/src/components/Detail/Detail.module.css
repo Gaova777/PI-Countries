@@ -1,0 +1,223 @@
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #365b77be;
+}
+
+.li {
+    float: left;
+  
+    font-size: 17px;
+}
+
+.li a {
+  
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: #111;
+    background-color: #ddd;
+    color: black;
+}
+/* .container{
+    display: grid;
+    background-color: #365b7766;
+    grid-template-columns: 50% 50%;
+    border: rgb(232, 223, 223) solid 2px;
+    border-radius: 5%;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 1200px;
+} */
+
+.container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px;
+    justify-items: center;
+}
+
+/* .cardDetail {
+    overflow: hidden;
+    color: #ccc;
+    background-color: #162836;
+    box-shadow: 7px 7px 15px #191919,
+        7px 7px 15px #292929;
+    padding: 20px;
+    margin: 50px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.95;
+    text-align: center;
+    border: rgb(232, 223, 223) solid 2px;
+    height: 750px;    
+} */
+.cardDetail {
+    display: grid;
+    background-color:#162836;
+    width: 30rem;
+    border-radius: 20px;
+    border: rgb(232, 223, 223) solid 2px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.cardDetail img{
+    border-radius: 5%;
+    width: 12rem;
+    padding-top: 1rem;
+    justify-self: center;
+}
+
+
+.letter {
+    margin-left: 5rem;
+    text-align: left;
+    color: #ccc;
+}
+
+.titleone{
+    color: rgba(44, 214, 189, 0.746);
+    font-size: 20px;
+    text-shadow: 2px 0 0 rgb(25, 24, 24);
+    text-align: center
+}
+
+/* .cardDificultyContainer{
+    overflow: auto;
+    color: #ccc;
+    background-color: black;
+    padding: 20px;
+    margin: 50px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.95;
+    height: 750px;
+} */
+.cardDificultyContainer{
+    display: grid;
+    color: #ccc;
+    width: 30rem;
+    max-height: 555px;
+    overflow: auto;
+}
+
+/* .cardDificulty{
+    position: relative;
+    overflow: hidden;
+    color: #ccc;
+    background-color: #162836;
+    box-shadow: 7px 7px 15px #191919,
+        7px 7px 15px #292929;
+    padding: 20px;
+    margin: 50px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    opacity: 0.95;
+    width: 200px;
+    border: rgb(232, 223, 223) solid 2px;
+} */
+.cardDificulty{
+    color: #ccc;
+    background-color: #162836;
+    border-radius: 20px;
+    border: rgb(232, 223, 223) solid 2px;
+    width: 200px;
+    height: 180px;
+    margin: 1rem;
+    align-self: center;
+    justify-self: center;
+    overflow: hidden;
+}
+
+
+.error404{
+    padding-left: 280px;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width: 990px) {
+    .cardDetail {
+        display: grid;
+        background-color: #162836;
+        width: 20rem;
+    }
+
+    .cardDificultyContainer{
+        display: grid;
+        color: #ccc;
+        width: 20rem;
+      
+    }
+
+    .cardDetail img{
+        border-radius: 5%;
+        width: 12rem;
+        margin: 1rem;
+        justify-self: center;
+    }
+
+    .letter {
+        margin-left: 5rem;
+        text-align: left;
+        color: #ccc;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container{
+        grid-template-columns: 1fr;
+        margin: 20px 1px 0px 1px;
+    }
+}
+
+@media screen and (max-width: 438px) {
+    .cardDetail {
+        display: grid;
+        background-color: #162836;
+        width: 14rem;
+    }
+
+    .cardDetail img{
+        border-radius: 5%;
+        width: 10rem;
+        padding-top: 1rem;
+        justify-self: center;
+    }
+
+    .letter {
+        margin-left: 2rem;
+        text-align: left;
+    }
+
+    .cardDificultyContainer{
+        display: grid;
+        color: #ccc;
+        width: 12rem;
+      
+    }
+
+    .cardDificulty{
+        color: #ccc;
+        background-color: #162836;
+        border-radius: 20px;
+        border: rgb(232, 223, 223) solid 2px;
+        width: 180px;
+        height: 180px;
+        margin: 1rem 5px 1rem 5px;
+        align-self: center;
+        justify-self: center;
+        overflow: hidden;
+    }
+}
+
+

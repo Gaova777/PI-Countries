@@ -1,0 +1,137 @@
+/* .container{
+    background-color: blue;
+    position: relative;
+    width: 25em;
+    left: 35%;
+} */
+
+/* .container{
+    background-color: blue;
+    display: grid;
+    justify-content: center;
+} */
+
+/* .container{
+    background-color: blue;
+    display: grid;
+    place-items: center;
+} */
+
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .container{
+    display: grid;
+    place-items: center;
+} */
+
+.link{
+    list-style: none;
+    background-color: aqua;
+}
+
+
+.p{
+    color: red;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #365b77be;
+}
+
+.li {
+    float: left;
+    
+    font-size: 17px;
+}
+
+.li a {
+    
+    display: block;
+    color: #ccc;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: #111;
+    background-color: #ddd;
+    color: black;
+}
+
+/* .iner{
+    background: #365b77be;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+    color: rgb(159, 164, 169);
+    overflow: auto;
+} */
+
+
+.h1{
+    color: silver;
+}
+
+.iner{
+   display: grid;
+   place-items: center;
+  /*  overflow: hidden; */
+}
+
+.formulario{
+    padding-left: 3em;
+    padding-top: 3em;
+    text-align: left;
+    color: silver;
+    background-color: #162836d8;
+    border: rgb(232, 223, 223) solid 2px;
+    border-radius: 5%;
+    margin-top: 20px;
+    width: 450px;
+    /* height: 400px; */
+    /* max-height: 500px; */
+    /* overflow: auto; */
+}
+
+.latter{
+    margin-bottom: 2em;
+}
+
+@media screen and (max-width:742px) {
+    .formulario{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 260px;
+    }
+
+    .btn select {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width:392px) {
+    .iner{
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+     }
+
+    .formulario{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 200px;
+    }
+
+    .btn select {
+        width: 180px;
+    }
+}

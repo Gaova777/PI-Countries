@@ -1,0 +1,60 @@
+
+.container {
+    color:  rgba(255, 255, 255, 0.956);
+    margin-right: 0%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:flex-start;
+    text-decoration: none;
+    height: 100%;
+}
+
+.h1{
+    text-shadow: 2px 0 0 rgb(25, 24, 24), -2px 0 0 rgb(25, 24, 24), 0 2px 0 rgb(25, 24, 24), 0 -2px 0 rgb(25, 24, 24), 1px 1px rgb(25, 24, 24), -1px -1px 0 rgb(25, 24, 24), 1px -1px 0 rgb(25, 24, 24), -1px 1px 0 rgb(25, 24, 24);
+    text-align: center;
+    color: #ccc;
+    
+}
+
+.gifContainer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif{
+    width: 500px;
+    height: 500px;
+}
+
+.searchBar{
+    display: flex;
+    padding-left: 1em;
+}
+
+.reffresh button{
+    color: white;
+    background-color: #365b7766;
+    padding: 7px 15px;
+    border-radius: 10px;
+}
+
+.reffresh button:hover{
+    background-color: #62a2d266;
+    cursor: pointer;
+}
+
+.error404{
+    padding-left: 400px;
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width: 742px) {
+    .gif{
+        width: 250px;
+        height: 250px;
+    }
+}
